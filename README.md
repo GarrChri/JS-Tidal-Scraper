@@ -120,7 +120,7 @@ The received resonse will be an array of JSON objects that each contain the foll
     }
     
 ```
-The following shows an example of how to extract relevant data from each returned object by creating a new class and looping through the results:
+The following shows an example of how to extract the artist name, song title, song url, album name, and album cover from each returned object by creating a new class and looping through the results:
 ```
 class Song {
   constructor(artist, title, url, album, cover) {
