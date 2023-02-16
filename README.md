@@ -17,6 +17,12 @@ This program requires Node.js to run. To install Node, please visit: https://nod
 npm init
 ```
 
+After installing the necessary libraries, open your package.json file and add the following line above "author":
+```
+"type": "module",
+```
+This will allow you to run the program from your terminal/command prompt.
+
 ## Installation
 The following liraries are needed: Express.js, cors, and @dastormer/tidal-api-wrapper, and can be installed using the following commands:
 #### Express.js
@@ -32,7 +38,7 @@ npm i cors
 npm i @dastormer/tidal-api-wrapper
 ```
 
-To run the program, open a terminal and navigate to the directory that contains the file and type:
+To run the program, open a terminal/command promopt and navigate to the directory that contains the file and type:
 ```
 node get-tidal-songs.js
 ```
