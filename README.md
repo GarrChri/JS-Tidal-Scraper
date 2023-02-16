@@ -17,7 +17,7 @@ This program requires Node.js to run. To install Node, please visit: https://nod
 npm init
 ```
 
-After installing the necessary libraries, open your package.json file and add the following line above "author":
+After creating your Node project, open your package.json file and add the following line above "author":
 ```
 "type": "module",
 ```
