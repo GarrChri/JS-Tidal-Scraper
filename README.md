@@ -6,7 +6,7 @@
 
 #### Welcome to my Tidal music scraper! This program will wait for an HTTP GET request containing a Tidal artist ID and number of songs to return. It will then return a JSON object containing a list of the newest songs released from the artist requested, based on the number of songs requested.
 
-##### The scraper file can be found in the tidal-server folder, tidal-ui was only used for testing purposes.
+##### The scraper file can be found in the tidal-server folder. Tidal-ui was a React program used for testing purposes.
 
 ## Prerequisites
 #### Node.js
