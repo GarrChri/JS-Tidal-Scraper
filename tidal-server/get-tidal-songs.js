@@ -13,7 +13,9 @@ async function getSongs(artist_id) {
   // Retrieves songs released 2022 and later
   const transform = await songs;
   const filter_arr = transform.filter(
-    (i) => +i.streamStartDate.slice(0, 4) > 2021
+    (i) =>
+      +i.streamStartDate.slice(0, 4) > 2021 &&
+      i.streamStartDate.slice(0, 10) != "2023-02-17"
   );
 
   // Removes duplicate songs
